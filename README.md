@@ -24,6 +24,25 @@
 
 <br>
 
+**2. volatility-based cluster (PCA & t-SNE)**
+- path:
+  - **/volatility_based_cluster_pca_tsne/t-SNE-PCA-2021-definedindustry.ipynb**
+- description: This code does hierarchical cluster analysis on the monthly return rate and return rate volalitity from 2021.01 to 2021.09 of all A shares companies in China.
+  - **input file**: `波动率2021.xlsx`; `industries_clustering_1_tier_classification_silhouette_score.xlsx`; `return_rate.xlsx`
+  - use the Python PCA analysis and t-SNE analysis package to carry out the cluster analysis
+  - use our ***self-defined*** first-tier industry classification for robustness
+  - visualize cluster result 
+- path:
+  - **/volatility_based_cluster_pca_tsne/Standard-Industry-Classification-Analysis.ipynb**
+  - **/volatility_based_cluster_pca_tsne/Standard-Industry-Classification-Analysis.py**
+- description: This code does hierarchical cluster analysis on the monthly return rate and return rate volalitity from 2021.01 to 2021.09 of all A shares companies in China.
+  - **input file**: `波动率2021.xlsx`; `industry_classification.xlsx`; `return_rate.xlsx`
+  - use the Python PCA analysis and t-SNE analysis package to carry out the cluster analysis
+  - use ***standard*** first-tier industry classification for robustness
+  - visualize cluster result 
+
+<br>
+
 **3. industry policy scraping and wordcloud**
 - path: 
   - **/webscraping+wordcloud/industry_policy_scraping.py**
