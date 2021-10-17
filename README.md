@@ -16,7 +16,11 @@
   - count word frequencies and calculate cosine similarity matrix of listed companies
   - employ `Word2Vec` to generate an aggregated vector which implies its business field for each listed company
   - K-Means clustering: Mini-batch K-Means; select the optimal number of clusters based on **elbow rules** and **silhouette_scores**
-  - **Output file** `industries_clustering_1_tier_classification_elbow.xlsx` `industries_clustering_1_tier_classification_silhouette_score.xlsx` `industries_clustering_2_tier_classification_elbow.xlsx` `industries_clustering_2_tier_classification_silhouette_score.xlsx`
+  - **Output file**
+  `industries_clustering_1_tier_classification_elbow.xlsx`
+  `industries_clustering_1_tier_classification_silhouette_score.xlsx`
+  `industries_clustering_2_tier_classification_elbow.xlsx`
+  `industries_clustering_2_tier_classification_silhouette_score.xlsx`
 
 <br>
 
