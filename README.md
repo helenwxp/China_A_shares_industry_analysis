@@ -1,7 +1,7 @@
 # China_A_shares_industry_analysis
 **Methods employed:**
 - K-Means clustering
-- PCA
+- t-SNE
 - web scraping
 - word segmentation, wordcloud
 - word2vec
@@ -25,4 +25,6 @@
   - **/webscraping+wordcloud/industry_policy_scraping.py**
   - **/webscraping+wordcloud/industry_policy_wordcloud.py**
 - description: This code first scrape <a href='http://zhengce.chinabaogao.com/'>policies of 28 different industries</a> from web and identify the most popular words mentioned by policymakers via `wordcloud`. 
+
+
 ![sample wordcloud](/webscraping+wordcloud/imgs/wc/电力.jpg)
