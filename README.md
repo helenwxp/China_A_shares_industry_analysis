@@ -1,6 +1,7 @@
 # China_A_shares_industry_analysis
 **Methods employed:**
 - K-Means clustering
+- PCA
 - t-SNE
 - web scraping
 - word segmentation, wordcloud
